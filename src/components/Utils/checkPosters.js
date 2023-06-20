@@ -1,4 +1,4 @@
-import defaultPhoto from '../img/no-photo.png';
+import defaultPhoto from '../Image/no-photo.jpg';
 
 const checkPosters = img => {
   if (!img) {

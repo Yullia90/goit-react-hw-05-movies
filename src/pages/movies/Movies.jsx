@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Formik } from 'formik';
 
-import fetchSearchMovies from 'components/API/searchMoviesApi';
+import fetchSearchMovies from 'components/API/seachMoviesApi';
 
 import SearchMoviesItems from '../../components/Main/SearchMoviesItems';
 import FadingLoader from 'components/Loading/FadingLoaderCard';

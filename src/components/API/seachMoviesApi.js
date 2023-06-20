@@ -1,4 +1,4 @@
-import { API_KEY } from "KEY/movieKey";
+import { API_KEY } from "../../KEY/movieKey";
 import axios from "axios";
 
 const BASE_URL = 'https://api.themoviedb.org/3/search/movie';

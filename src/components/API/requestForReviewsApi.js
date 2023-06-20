@@ -1,4 +1,4 @@
-import { API_KEY } from "KEY/movieKey";
+import { API_KEY } from "../../KEY/movieKey";
 import axios from "axios";
 
 const fetchRequestForReviewsApi = async movie_Id => {

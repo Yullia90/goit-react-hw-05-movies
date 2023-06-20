@@ -4,7 +4,7 @@ import {ImageError, Wrapper} from "./PageNotFound.styled"
 const PageNotFound = () => {
     return (
         <Wrapper>
-            <ImageError src={notFound width="350" alt="Page-Not-Found"}/>
+            <ImageError src={notFound} width="350" alt="Page-Not-Found"/>
         </Wrapper>
     );
 };

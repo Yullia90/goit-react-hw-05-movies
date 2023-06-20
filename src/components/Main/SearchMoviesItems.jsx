@@ -25,7 +25,7 @@ const SearchMoviesItems = ({ queryResultItems }) => {
 
   return (
     <ContentWrapper>
-      <UL>
+      <Ul>
         {queryResultItems.map(
           ({ id, title, poster_path, overview, release_date }) => (
             <Li key={id}>
@@ -42,7 +42,7 @@ const SearchMoviesItems = ({ queryResultItems }) => {
             </Li>
           )
         )}
-      </UL>
+      </Ul>
     </ContentWrapper>
   );
 };

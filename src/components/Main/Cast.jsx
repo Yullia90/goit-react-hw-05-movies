@@ -62,10 +62,15 @@ const Cast = () => {
                     <Ol>
                         {casts.map(({ id, name, character, profile_path }) => {
                             return (
-                                <LiCard key={id}>
-                                    <Img loading="lazy" src={checkPosters(profile_path)} alt={name} />
-                                    <Name>{character}</Name>
-                                </LiCard>
+                              <LiCard key={id}>
+                                <Img
+                                  loading="lazy"
+                                  src={checkPosters(profile_path)}
+                                  alt={name}
+                                />
+                                <Name>{name}</Name>
+                                <Character>{character}</Character>
+                              </LiCard>
                             );
                         })}
                     </Ol>
